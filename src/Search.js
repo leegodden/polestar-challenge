@@ -24,6 +24,7 @@ const Search = (props) => {
 				value={searchValue}
 				onChange={handleSearchInputChanges}
 				type="text"
+				placeholder="Search by book title or author"
 			/>
 			<button
 				disabled={!searchValue}
